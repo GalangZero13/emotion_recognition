@@ -13,7 +13,7 @@ testGen = HDF5DatasetGenerator(config.TEST_HDF5, config.BATCH_SIZE, aug = testAu
 print("[INFO] loading {}...".format(args["model"]))
 model = load_model(args["model"])
 
-(loss, acc) = model.evaluate_generatir(
+(loss, acc) = model.evaluate_generator(
     testGen.generator(),
     steps = testGen.numImages // config.BATCH_SIZE,
     max_queue_size = config.BATCH_SIZE * 2)
