@@ -1,2 +1,2 @@
 # emotion_recognition
-Emotion Recognition referring to pyimagesearch learning module
+Emotion Recognition based on pyimagesearch learning module
