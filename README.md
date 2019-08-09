@@ -1,5 +1,5 @@
 # Emotion Recognition
-Emotion Recognition based on pyimagesearch learning module
+Simple Emotion Recognition for internship project.
 
 ## Requirements (What to check before you do)
 Make sure you already have the following things installed:
